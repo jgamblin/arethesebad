@@ -1,4 +1,19 @@
-A python script to automatically lookup all files recursively contained in a directory on virus total. 
+### Are These Bad?
+
+Are These Bad is a python script that will automatically lookup all files contained in a directory on virustotal.com.  I wrote this to quickly scan portable media on my rasbperry pi.  
 
 
-You will need an API Key from Virustotal.com for this work. 
+## Usage
+
+python arethesebad.py ../Directory/To/Scan
+python arethesebad.py /media/usb/
+
+
+## Notes
+You will need an API Key from Virustotal.com for this script to work:
+https://www.virustotal.com/en/documentation/public-api/
+
+For ease of use past key into API_KEY ='' on Line11. 
+
+*I dont kow what I am doing. This will likely break your system.* 
+
