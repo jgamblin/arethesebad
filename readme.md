@@ -1,11 +1,12 @@
 ### Are These Bad?
 
-Are These Bad is a python script that will automatically lookup all files contained in a directory on virustotal.com.  I wrote this to quickly scan portable media on my rasbperry pi.  
+Are These Bad is a python script that will automatically lookup all files contained in a directory on virustotal.com.  I wrote this to quickly check portable media on my rasbperry pi for known viruses. 
 
 
 # Usage
 
 python arethesebad.py ../Directory/To/Scan
+
 python arethesebad.py /media/usb/
 
 
