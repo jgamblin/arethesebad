@@ -150,7 +150,7 @@ class Scanner(object):
 	print ('Scanned %0.f files with virustotal.com:') % (CLEAN+CHECK+VIRUS)	
 	print (Green('%0.f files are virus free.')) % CLEAN
 	print (yellow('%0.f files need to be manually verified.')) % CHECK
-	print (red('%0.f files that are infected.')) % VIRUS
+	print (red('%0.f files are infected.')) % VIRUS
 	
     def run(self):
         if not self.key:
